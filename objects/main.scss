@@ -1,0 +1,10 @@
+.container{
+    background-color: $second-color;
+    @include displayFlex;
+}
+.left{
+    @include displayFlexColumn;
+}
+.right{
+    @include displayFlexColumn;
+}

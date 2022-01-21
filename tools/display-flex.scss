@@ -1,0 +1,9 @@
+@mixin displayFlexColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+@mixin displayFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
